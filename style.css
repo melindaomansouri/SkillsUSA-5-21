@@ -1,0 +1,108 @@
+body{
+    background-color:#FFF6F2;
+    font-size:1.3vw;
+    color:#707070;
+    justify-content:center;
+}
+
+.main{
+    text-align:center;
+    color:#707070;
+    font-size:1.3vw;
+}
+.nav{
+    display:flex;
+    align-content:space-between;
+    align-items:center;
+    justify-content:space-around;
+    margin:15px 100px;
+    color:#707070;
+    position: sticky;
+    top: 0;
+    background-color:#FFF6F2;
+}
+a{
+    background-color:#E6FFFB ;
+  border:2px solid #707070;
+  color: #707070;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vw;
+  cursor: pointer;
+  transition-duration:0.6s;
+}
+a:hover{
+    color:#E6FFFB;
+    background-color:#707070;
+    border-color:#E6FFFB;
+
+}
+.banner{
+    background-color:#FFE6FF;
+    height:170px;
+    width:auto;
+    color:#707070;
+    text-align:center;
+    display:flex;
+    justify-content:space-around;
+    align-content:space-between;
+    align-items:center;
+    flex-direction:column;
+}
+.banner >h1{
+    margin:0px 10px;
+    font-size:2.3vw;
+}
+.banner >h3{
+    margin:10px 0px;
+    font-size:1.8vw;
+}
+.main > img{
+    float:right;
+    border-radius: 25%;
+    width:18vw;
+    margin:20px;
+}
+.pricing{
+    display:flex;
+    justify-content:space-around;
+    align-content:center;
+    margin:5vw;
+    background-color:#FFF6F2;
+    
+}
+.price{
+    border:1px solid #707070;
+    border-radius:15%;
+    margin:5vw 5px;
+    text-align:center;
+}
+.price >h3{
+    border:1px solid #707070;
+    border-radius:15%;
+    width:6vw;
+    margin-left:38%;
+    margin-right:33%;
+    background-color:#FFE6FF;
+    align-self:center;
+}
+.price > p{
+    border:1px solid #707070;
+    border-radius:10%;
+    margin:3px;
+    background-color:#FFF6F2;
+    align-self:center;
+    padding:0px 80px;
+}
+.price > h4{
+    border:1px solid #707070;
+    border-radius:10%;
+    background-color:#FFE6FF;
+    align-self:center;
+    width:14vw;
+    height:2vw;
+    margin-left:25%;
+    
+}
